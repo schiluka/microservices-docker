@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  frontend-service:
+    hostname: frontend-service
+    build: ./frontend-service
+    ports:
+      - 8080:8080
+    networks:
+      - frontend-service
+      - backend-service
+
+  backend-service:
+    hostname: backend-service
+    build: ./backend-service
+    networks:
+      - backend-service
+
+networks:
+  frontend-service:
+  backend-service:

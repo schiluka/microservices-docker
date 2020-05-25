@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="example-project.backend.main" target="1.10" />
+      <module name="example-project.backend.test" target="1.10" />
+      <module name="example-project.frontend.main" target="1.10" />
+      <module name="example-project.frontend.test" target="1.10" />
+      <module name="microservices-docker.backend-service.main" target="1.10" />
+      <module name="microservices-docker.backend-service.test" target="1.10" />
+      <module name="microservices-docker.frontend-service.main" target="1.10" />
+      <module name="microservices-docker.frontend-service.test" target="1.10" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
